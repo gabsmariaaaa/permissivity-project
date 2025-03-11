@@ -1,25 +1,34 @@
-var builder = WebApplication.CreateBuilder(args);
+using System;
+using PermissivityProject.Data;
+using PermissivityProject.Services;
+using PermissivityProject.Models;
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+namespace PermissivityProject
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Configura a conexão
+            SQLiteDatabase db = new SQLiteDatabase();
+            db.OpenConnection();
+
+            // Cria as tabelas
+            DatabaseSetup setup = new DatabaseSetup();
+            setup.CreateTables();  // Agora funciona, pois o método existe
+
+            // Criação de um usuário (opcional)
+            UserService userService = new UserService();
+            User user = new User
+            {
+                Name = "João",
+                Email = "joao@exemplo.com",
+                PasswordHash = "senha_segura",
+                Role = "Agente"
+            };
+            userService.AddUser(user);
+
+            db.CloseConnection();
+        }
+    }
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
