@@ -1,7 +1,7 @@
 using System;
 using PermissivityProject.Data;
-using PermissivityProject.Services;
 using PermissivityProject.Models;
+using PermissivityProject.Services;
 
 namespace PermissivityProject
 {
@@ -9,26 +9,24 @@ namespace PermissivityProject
     {
         static void Main(string[] args)
         {
-            // Configura a conexão
-            SQLiteDatabase db = new SQLiteDatabase();
-            db.OpenConnection();
-
-            // Cria as tabelas
-            DatabaseSetup setup = new DatabaseSetup();
-            setup.CreateTables();  // Agora funciona, pois o método existe
-
-            // Criação de um usuário (opcional)
-            UserService userService = new UserService();
-            User user = new User
+            // Criar uma instância de SQLiteDatabase
+            using (SQLiteDatabase db = new SQLiteDatabase())
             {
-                Name = "João",
-                Email = "joao@exemplo.com",
-                PasswordHash = "senha_segura",
-                Role = "Agente"
-            };
-            userService.AddUser(user);
+                // Criar as tabelas, caso não existam
+                DatabaseSetup setup = new DatabaseSetup();
+                setup.CreateTables(db); // Passando a instância db para o método CreateTables
 
-            db.CloseConnection();
+                // Criar um novo usuário (opcional)
+                UserService userService = new UserService();
+                User user = new User
+                {
+                    Name = "João",
+                    Email = "joao@exemplo.com",
+                    PasswordHash = "senha_segura",
+                    Role = "Agente"
+                };
+                userService.AddUser(user);
+            }
         }
     }
 }
