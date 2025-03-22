@@ -12,7 +12,7 @@ namespace PermissivityProject.Services
             string query = @"INSERT INTO Users (Name, Email, PasswordHash, Role)
                                 VALUES (@Name, @Email, @PasswordHash, @Role);";
 
-            using (SQLiteDatabase db = new SQLiteDatabase()) // Usando using para garantir o Dispose
+            using (SQLiteDatabase db = new SQLiteDatabase()) 
             {
                 using (SQLiteConnection conn = db.GetConnection())
                 {

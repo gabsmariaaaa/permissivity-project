@@ -4,7 +4,7 @@ namespace PermissivityProject
 {
     public class DatabaseSetup
     {
-        // Método que cria as tabelas no banco de dados
+        
         public void CreateTables(SQLiteDatabase db)
         {
             string createTableQuery = @"
@@ -17,7 +17,7 @@ namespace PermissivityProject
                 );
             ";
 
-            db.ExecuteQuery(createTableQuery);  // Executa a consulta SQL para criar a tabela
+            db.ExecuteQuery(createTableQuery);  
         }
     }
 }

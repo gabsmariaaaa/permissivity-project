@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:data\\sqlitedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\maria gabriela\\desktop\\api-authorization\\permissivity-project\\data\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:data\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\maria gabriela\\desktop\\api-authorization\\permissivity-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\maria gabriela\\desktop\\api-authorization\\permissivity-project\\app_data\\permissivity.db||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:app_data\\permissivity.db||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\maria gabriela\\desktop\\api-authorization\\permissivity-project\\data\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:data\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\maria gabriela\\desktop\\api-authorization\\permissivity-project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "permissivity.db",
               "DocumentMoniker": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\App_Data\\permissivity.db",
               "RelativeDocumentMoniker": "App_Data\\permissivity.db",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Service\\UserService.cs",
@@ -85,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "DatabaseSetup.cs",
               "DocumentMoniker": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\Data\\DatabaseSetup.cs",
               "RelativeDocumentMoniker": "Data\\DatabaseSetup.cs",
               "ToolTip": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\Data\\DatabaseSetup.cs",
               "RelativeToolTip": "Data\\DatabaseSetup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T00:15:07.491Z",
               "EditorCaption": ""
@@ -104,7 +104,7 @@
               "RelativeDocumentMoniker": "Data\\SQLiteDatabase.cs",
               "ToolTip": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\Data\\SQLiteDatabase.cs",
               "RelativeToolTip": "Data\\SQLiteDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T00:14:49.533Z",
               "EditorCaption": ""

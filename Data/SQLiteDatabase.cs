@@ -18,15 +18,15 @@ namespace PermissivityProject.Data
             catch (Exception ex)
             {
                 Console.WriteLine("Erro ao abrir a conexão: " + ex.Message);
-                throw; // Lança a exceção novamente para indicar falha
+                throw; 
             }
         }
 
         public SQLiteConnection GetConnection()
         {
-            if (connection == null) // Verifica se a conexão é nula
+            if (connection == null) 
             {
-                throw new InvalidOperationException("Conexão com o banco de dados não foi inicializada."); // Lança uma exceção se for nula
+                throw new InvalidOperationException("Conexão com o banco de dados não foi inicializada.");
             }
             if (connection.State != System.Data.ConnectionState.Open)
             {
@@ -37,7 +37,7 @@ namespace PermissivityProject.Data
                 catch (Exception ex)
                 {
                     Console.WriteLine("Erro ao abrir a conexão: " + ex.Message);
-                    throw; // Lança a exceção novamente em caso de falha
+                    throw; 
                 }
             }
             return connection;

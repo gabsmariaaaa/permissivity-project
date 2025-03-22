@@ -9,14 +9,14 @@ namespace PermissivityProject
     {
         static void Main(string[] args)
         {
-            // Criar uma instância de SQLiteDatabase
+            
             using (SQLiteDatabase db = new SQLiteDatabase())
             {
-                // Criar as tabelas, caso não existam
+                
                 DatabaseSetup setup = new DatabaseSetup();
-                setup.CreateTables(db); // Passando a instância db para o método CreateTables
+                setup.CreateTables(db); 
 
-                // Criar um novo usuário (opcional)
+               
                 UserService userService = new UserService();
                 User user = new User
                 {
