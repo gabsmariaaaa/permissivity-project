@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\permissivity-project.csproj": {}
+    "C:\\Users\\Gabio\\Desktop\\permissivity\\permissivity-project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\permissivity-project.csproj": {
+    "C:\\Users\\Gabio\\Desktop\\permissivity\\permissivity-project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\permissivity-project.csproj",
+        "projectUniqueName": "C:\\Users\\Gabio\\Desktop\\permissivity\\permissivity-project.csproj",
         "projectName": "permissivity-project",
-        "projectPath": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\permissivity-project.csproj",
-        "packagesPath": "C:\\Users\\Maria Gabriela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maria Gabriela\\Desktop\\api-authorization\\permissivity-project\\obj\\",
+        "projectPath": "C:\\Users\\Gabio\\Desktop\\permissivity\\permissivity-project.csproj",
+        "packagesPath": "C:\\Users\\Gabio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabio\\Desktop\\permissivity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Maria Gabriela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
