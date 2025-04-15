@@ -9,7 +9,7 @@ namespace PermissivityProject
     {
         public static void Main(string[] args)
         {
-            // Cria e configura a aplicação web
+            
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -17,7 +17,7 @@ namespace PermissivityProject
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();  // Usando o Startup.cs para configurar a aplicação
+                    webBuilder.UseStartup<Startup>();  
                 });
     }
 }

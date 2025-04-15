@@ -12,10 +12,10 @@ namespace PermissivityProject
         {
             services.AddControllers();
 
-            // Registra SQLiteDatabase como singleton (uma instância única)
+            
             services.AddSingleton<SQLiteDatabase>();
 
-            // Registra UserService como scoped (uma instância por requisição)
+            
             services.AddScoped<UserService>();
         }
 
