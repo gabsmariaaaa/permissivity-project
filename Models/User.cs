@@ -1,6 +1,11 @@
-﻿namespace permissivity_project.Models
+﻿namespace PermissivityProject.Models
 {
-    public class Class
+    public class User
     {
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public string? Email { get; set; }
+        public string? PasswordHash { get; set; }
+        public string? Role { get; set; } // 'Agente', 'Gerente', 'Administrador'
     }
 }

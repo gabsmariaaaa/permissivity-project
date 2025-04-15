@@ -1,32 +1,23 @@
-using System;
-using PermissivityProject.Data;
-using PermissivityProject.Models;
-using PermissivityProject.Services;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace PermissivityProject
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            
-            using (SQLiteDatabase db = new SQLiteDatabase())
-            {
-                
-                DatabaseSetup setup = new DatabaseSetup();
-                setup.CreateTables(db); 
-
-               
-                UserService userService = new UserService();
-                User user = new User
-                {
-                    Name = "João",
-                    Email = "joao@exemplo.com",
-                    PasswordHash = "senha_segura",
-                    Role = "Agente"
-                };
-                userService.AddUser(user);
-            }
+            // Cria e configura a aplicação web
+            CreateHostBuilder(args).Build().Run();
         }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();  // Usando o Startup.cs para configurar a aplicação
+                });
     }
 }

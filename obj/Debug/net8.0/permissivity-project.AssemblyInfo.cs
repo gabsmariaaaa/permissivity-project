@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("permissivity-project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4a86584ca9e025002002c58e8d6af2127391d72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+083872489199a59e8bdd8ad214f9cabaa67ffe86")]
 [assembly: System.Reflection.AssemblyProductAttribute("permissivity-project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("permissivity-project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

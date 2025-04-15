@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PermissivityProject.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "User/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "PermissivityProject.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

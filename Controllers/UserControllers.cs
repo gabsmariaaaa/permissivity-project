@@ -1,11 +1,26 @@
-﻿namespace PermissivityProject.Models
+﻿using Microsoft.AspNetCore.Mvc;
+using PermissivityProject.Models;
+using PermissivityProject.Services;
+
+namespace PermissivityProject.Controllers
 {
-    public class User
+    [ApiController]
+    [Route("[controller]")] // agora o endpoint será /user
+    public class UserController : ControllerBase
     {
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public string? Email { get; set; }
-        public string? PasswordHash { get; set; }
-        public string? Role { get; set; } // 'Agente', 'Gerente', 'Administrador'
+        private readonly UserService _userService;
+
+        // Injeção de dependência via construtor
+        public UserController(UserService userService)
+        {
+            _userService = userService;
+        }
+
+        [HttpPost("add")]
+        public IActionResult AddUser([FromBody] User user)
+        {
+            _userService.AddUser(user);
+            return Ok("Usuário criado com sucesso!");
+        }
     }
 }
