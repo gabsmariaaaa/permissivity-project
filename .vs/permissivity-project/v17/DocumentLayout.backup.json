@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Gabio\\Desktop\\permissivity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\controllers\\usercontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:controllers\\usercontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\data\\sqlitedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,26 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\data\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:data\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3BA0F0EE-1060-4F88-8B34-7547BBB88D1D}|permissivity-project.csproj|c:\\users\\gabio\\desktop\\permissivity\\permissivity-project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -50,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,27 +75,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DatabaseSetup.cs",
-              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Data\\DatabaseSetup.cs",
-              "RelativeDocumentMoniker": "Data\\DatabaseSetup.cs",
-              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Data\\DatabaseSetup.cs",
-              "RelativeToolTip": "Data\\DatabaseSetup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:15:07.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserControllers.cs",
-              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Controllers\\UserControllers.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserControllers.cs",
-              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Controllers\\UserControllers.cs*",
-              "RelativeToolTip": "Controllers\\UserControllers.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAA8wBIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:13:08.961Z",
+              "WhenOpened": "2025-03-07T00:20:23.028Z",
               "EditorCaption": ""
             },
             {
@@ -90,77 +93,141 @@
               "RelativeDocumentMoniker": "Startup.cs",
               "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T22:40:50.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Service\\AuthService.cs",
+              "RelativeToolTip": "Service\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:41:31.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T23:09:50.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Service\\UserService.cs*",
+              "RelativeToolTip": "Service\\UserService.cs*",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAiwIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T00:17:47.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "SQLiteDatabase.cs",
               "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Data\\SQLiteDatabase.cs",
               "RelativeDocumentMoniker": "Data\\SQLiteDatabase.cs",
               "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Data\\SQLiteDatabase.cs",
               "RelativeToolTip": "Data\\SQLiteDatabase.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAcwD8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:14:49.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T00:14:49.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-14T22:34:31.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "UserControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Controllers\\UserControllers.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserControllers.cs",
+              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Controllers\\UserControllers.cs",
+              "RelativeToolTip": "Controllers\\UserControllers.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAiwIcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T00:13:08.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatabaseSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Data\\DatabaseSetup.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseSetup.cs",
+              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Data\\DatabaseSetup.cs",
+              "RelativeToolTip": "Data\\DatabaseSetup.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T00:15:07.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:43:36.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:00:01.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T00:13:39.842Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:20:23.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\Gabio\\Desktop\\permissivity\\Service\\UserService.cs",
-              "RelativeToolTip": "Service\\UserService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:17:47.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "permissivity.db",
               "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\App_Data\\permissivity.db",
               "RelativeDocumentMoniker": "App_Data\\permissivity.db",
@@ -171,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "permissivity-project",
               "DocumentMoniker": "C:\\Users\\Gabio\\Desktop\\permissivity\\permissivity-project.csproj",
               "RelativeDocumentMoniker": "permissivity-project.csproj",

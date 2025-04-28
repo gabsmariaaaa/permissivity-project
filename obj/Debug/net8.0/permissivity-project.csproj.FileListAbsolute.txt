@@ -40,19 +40,24 @@ C:\Users\Maria Gabriela\Desktop\api-authorization\permissivity-project\obj\Debug
 C:\Users\Maria Gabriela\Desktop\api-authorization\permissivity-project\obj\Debug\net8.0\permissivity-project.pdb
 C:\Users\Maria Gabriela\Desktop\api-authorization\permissivity-project\obj\Debug\net8.0\permissivity-project.genruntimeconfig.cache
 C:\Users\Maria Gabriela\Desktop\api-authorization\permissivity-project\obj\Debug\net8.0\ref\permissivity-project.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.exe
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\appsettings.json
 C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.staticwebassets.endpoints.json
-C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.exe
-C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.deps.json
-C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.runtimeconfig.json
-C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.dll
-C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.pdb
-C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\System.Data.SQLite.dll
-C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\runtimes\linux-x64\native\SQLite.Interop.dll
 C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\runtimes\osx-x64\native\SQLite.Interop.dll
 C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\runtimes\win-x64\native\SQLite.Interop.dll
@@ -75,10 +80,13 @@ C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\staticwebassets\msbuild.bui
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.permissivity-project.props
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.permissivity-project.props
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\permissi.ECB4E5E8.Up2Date
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\permissivity-project.dll
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\refint\permissivity-project.dll
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\permissivity-project.pdb
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.deps.json
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.runtimeconfig.json
+C:\Users\Gabio\Desktop\permissivity\bin\Debug\net8.0\permissivity-project.pdb
+C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\permissivity-project.genruntimeconfig.cache
 C:\Users\Gabio\Desktop\permissivity\obj\Debug\net8.0\ref\permissivity-project.dll

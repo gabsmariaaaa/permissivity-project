@@ -24,10 +24,12 @@ namespace PermissivityProject.Data
 
         public SQLiteConnection GetConnection()
         {
-            if (connection == null) 
+            if (connection == null)
             {
                 throw new InvalidOperationException("Conexão com o banco de dados não foi inicializada.");
             }
+
+            // Não fechamos a conexão aqui, pois ela pode ser reutilizada posteriormente
             if (connection.State != System.Data.ConnectionState.Open)
             {
                 try
@@ -37,11 +39,12 @@ namespace PermissivityProject.Data
                 catch (Exception ex)
                 {
                     Console.WriteLine("Erro ao abrir a conexão: " + ex.Message);
-                    throw; 
+                    throw;
                 }
             }
-            return connection;
+            return connection; // Retornamos a conexão aberta
         }
+
 
         public void ExecuteQuery(string query)
         {
