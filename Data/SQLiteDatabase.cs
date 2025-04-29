@@ -29,7 +29,6 @@ namespace PermissivityProject.Data
                 throw new InvalidOperationException("Conexão com o banco de dados não foi inicializada.");
             }
 
-            // Não fechamos a conexão aqui, pois ela pode ser reutilizada posteriormente
             if (connection.State != System.Data.ConnectionState.Open)
             {
                 try
@@ -42,7 +41,7 @@ namespace PermissivityProject.Data
                     throw;
                 }
             }
-            return connection; // Retornamos a conexão aberta
+            return connection; 
         }
 
 

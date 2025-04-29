@@ -13,6 +13,6 @@ namespace PermissivityProject.Models
         [Required]
         public string Password { get; set; }
 
-        public string Role { get; set; } = "Agente"; // Valor padrão
+        public string Role { get; set; } = "Agente"; 
     }
 }

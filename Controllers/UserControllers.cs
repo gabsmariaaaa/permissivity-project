@@ -12,16 +12,16 @@ namespace PermissivityProject.Controllers
     public class UserController : ControllerBase
     {
         private readonly UserService _userService;
-        private readonly AuthService _authService; // Adicionando o AuthService
+        private readonly AuthService _authService; 
 
-        // Injeção das dependências no construtor
+        
         public UserController(UserService userService, AuthService authService)
         {
             _userService = userService;
-            _authService = authService; // Inicializando o AuthService
+            _authService = authService; 
         }
 
-        // Endpoint para adicionar usuário
+        
         [HttpPost("add")]
         public IActionResult AddUser([FromBody] User user)
         {
@@ -36,7 +36,7 @@ namespace PermissivityProject.Controllers
             return Ok("Usuário criado com sucesso!");
         }
 
-        // Endpoint para listar os papéis disponíveis
+        
         [HttpGet("roles")]
         public IActionResult GetRoles()
         {
@@ -44,7 +44,7 @@ namespace PermissivityProject.Controllers
             return Ok(roles);
         }
 
-        // Endpoint para buscar um usuário pelo ID (somente para Gerentes ou Administradores)
+       
         [HttpGet("user/{id}")]
         [Authorize(Roles = "Gerente, Administrador")]
         public IActionResult GetUser(int id)
@@ -57,15 +57,14 @@ namespace PermissivityProject.Controllers
             return Ok(user);
         }
 
-        // Endpoint para dashboard com visualização diferente para cada papel
+        
         [HttpGet("dashboard")]
-        [Authorize] // Todos precisam estar autenticados
+        [Authorize] 
         public IActionResult GetDashboard()
         {
-            // Obter o papel do usuário atual
+            
             var role = User.FindFirst(ClaimTypes.Role)?.Value;
 
-            // Verificar o papel do usuário e retornar dados específicos
             if (role == "Agente")
             {
                 return Ok(new { mensagem = "Visualização de Agente", dados = "Informações básicas" });
@@ -82,7 +81,7 @@ namespace PermissivityProject.Controllers
             return Unauthorized("Papel de usuário não autorizado para acessar esta visualização.");
         }
 
-        // Endpoint para login e geração de token JWT
+        
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginModel login)
         {
@@ -95,7 +94,7 @@ namespace PermissivityProject.Controllers
             if (user == null)
                 return Unauthorized("Credenciais inválidas.");
 
-            // Gerando o token JWT
+            
             var token = _authService.GenerateJwtToken(user);
             return Ok(new
             {
@@ -113,7 +112,7 @@ namespace PermissivityProject.Controllers
             {
                 Name = model.Name,
                 Email = model.Email,
-                PasswordHash = model.Password, // Em produção, aplique hash aqui!
+                PasswordHash = model.Password, 
                 Role = model.Role
             };
             _userService.AddUser(user);
@@ -121,17 +120,17 @@ namespace PermissivityProject.Controllers
             return Ok(new
             {
                 message = "Usuário registrado com sucesso.",
-                userId = user.Id // Retornando o ID gerado
+                userId = user.Id 
             });
         }
 
         [HttpGet("all")]
-        [Authorize(Roles = "Gerente, Administrador")] // Apenas Gerente e Admin podem ver a lista
+        [Authorize(Roles = "Gerente, Administrador")] 
         public IActionResult GetAllUsers()
         {
             var users = _userService.GetAllUsers();
 
-            // Vamos retornar só informações básicas (não a senha/hash)
+            
             var result = users.Select(u => new
             {
                 id = u.Id,
